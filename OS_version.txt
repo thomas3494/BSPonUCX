@@ -1,0 +1,4 @@
+\S
+Kernel \r on an \m
+
+Linux tcn320.local.snellius.surf.nl 5.14.0-427.42.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Oct 18 14:35:40 EDT 2024 x86_64 x86_64 x86_64 GNU/Linux

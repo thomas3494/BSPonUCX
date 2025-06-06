@@ -1,0 +1,15 @@
+
+JOB STATISTICS
+==============
+Job ID: 12217444
+Cluster: snellius
+User/Group: sscholz/sscholz
+State: RUNNING
+Nodes: 2
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 01:04:00 core-walltime
+Job Wall-clock time: 00:00:15
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 448.00 GB (224.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

@@ -1,0 +1,32 @@
+rm -f mem_map_bench
+mpicc -O3 -march=native -mtune=native -Wall -Wextra -ggdb  mem_map_bench.c -o mem_map_bench -lucp -luct -lucs -lucm -lm
+size in gb, bandwidth gb/s
+5.000000, 8.409936
+10.000000, 13.216588
+20.000000, 13.187367
+40.000000, 7.561953
+80.000000, 6.037441
+[1749201147.774689] [tcn114:394700:0]           mpool.c:54   UCX  WARN  object 0x1bded40 {{cpml} <no debug info>} was not returned to mpool ucp_requests
+[1749201147.774700] [tcn114:394700:0]           mpool.c:54   UCX  WARN  object 0x1bdefc0 {{cpml} <no debug info>} was not returned to mpool ucp_requests
+size in gb, bandwidth gb/s
+5.000000, 4.899818
+10.000000, 5.844593
+20.000000, 6.934596
+40.000000, 7.371448
+80.000000, 6.774775
+[1749201147.784246] [tcn127:946158:0]           mpool.c:54   UCX  WARN  object 0x1759fc0 {{cpml} <no debug info>} was not returned to mpool ucp_requests
+
+JOB STATISTICS
+==============
+Job ID: 12218578
+Cluster: snellius
+User/Group: sscholz/sscholz
+State: RUNNING
+Nodes: 2
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 03:37:36 core-walltime
+Job Wall-clock time: 00:00:51
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 448.00 GB (224.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.
