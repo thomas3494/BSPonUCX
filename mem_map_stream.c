@@ -225,6 +225,7 @@ int main(int argc, char **argv)
     size_t max  = 1e9 * atof(argv[2]);
 
     double *x = malloc(max);
+    #pragma omp parallel for
     for (size_t i = 0; i < max / sizeof(double); i++) {
         x[i] = 1.0;
     }
